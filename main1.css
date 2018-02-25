@@ -1,0 +1,153 @@
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+
+}
+nav {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 140px;
+	z-index: 2;
+}
+nav a {
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 15px;
+	padding: 12px 12px;
+	margin: 20px;
+}
+nav a:hover {
+	background-color: #180b4f;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	vertical-align: middle;
+	transition: all 0.5s ease-in;
+}
+
+button {
+	margin-top: 25px;
+	padding: 10px;
+	text-decoration: none;
+	font-family: 'Vidaloka', serif;
+	font-size: 19px;
+	border: 1px solid #180b4f;
+	border-radius: 5px;
+	background-color: #FFF; 
+}
+button:hover {
+	background-color: #180b4f;
+	color: #FFF;
+	cursor: pointer;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	transition: all 0.5s ease-in;
+	padding: 14px;
+}
+
+.pimg1, .pimg2, .pimg3 {
+	position: relative;
+	opacity: 0.70;
+	background-position:  center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+   /*
+   fixed= parallax
+   scroll=normal
+   */
+   background-attachment: fixed;
+
+}
+
+
+.pimg1 {
+	background-image: url("picture/bookkeeper2.jpg");
+    min-height: 100%;
+}
+
+.pimg2 {
+	background-image: url("picture/bookkeeper.jpg");
+    min-height: 400px;
+}
+
+.pimg3 {
+	background-image: url("picture/account.jpg");
+    min-height: 400px;
+}
+
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light {
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-dark {
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.ptext {
+	position: absolute;
+	top:50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+
+.border1{
+	font-family: 'Vidaloka', serif;
+	font-size: 48px;
+	color: #130942;
+}
+
+.ptext .border {
+	background-color: #fff;
+	color: #111;
+	padding: 20px;
+	border: 2px solid #180b4f;
+	border-radius: 10px;
+}
+.border3 {
+	font-family: 'Vidaloka', serif;
+	font-size: 18px;
+	background-color: #fff;
+	color: #111;
+	padding: 20px;
+	border: 2px solid #180b4f;
+	border-radius: 10px;
+}
+
+.ptext .border .trans {
+	background-color: transparent;
+	
+}
+
+
+@media(max-width: 568px) {
+	.pimg1, .pimg2, .pimg3 {
+		background-attachment: scroll;
+    float: none;
+    width: auto;
+	}
+}
+
+
+
+

@@ -1,0 +1,30 @@
+Bookkeepers in London
+Surveys suggest that for an average small business, financial paperwork and records can take up as much as 20% of available work time. For most businesses that time could be far more productively spent on customer facing matters, product or service development or marketing.<br>
+The question is, can your business afford a bookkeeper? Additionally, is it better to have a bookkeeper and an accountant, is it necessary and are the roles separate and different?</p>
+		We aim, not only to meet your expectations, but exceed them. We look to partner with you and help you achieve performance excellence.
+.service {
+	float: bottom;
+	position: relative;
+}
+
+.information h1 {
+	font-family: 'Vidaloka', serif;
+	font-size: 38px;
+	color: #180b4f;
+	text-align: center;
+}
+.information p {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 20px;
+	color: #180b4f;
+} 
+.filtre {
+width: 100%;
+height: 100%;
+}
+
+KARA BOOKKEEPING SERVICES – BOOKKEEPING SERVICES, PAYROLL SERVICES, <br>TAX AND VAT RETURNS
+			Support your business with the provision of professional and cost effective management;
+                      Relieve you of bookkeeping functions to allow you to concentrate on your core business;<br>Save you money by reducing accounting fees
